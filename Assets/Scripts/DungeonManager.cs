@@ -55,8 +55,8 @@ public class DungeonManager : MonoBehaviour
 
     [Header("游戏状态")]
     private int currentLayer = 1;          // 当前层数（1~10）
-    private int currentHP = 20;            // 当前血量
-    private const int MAX_HP = 20;         // 最大血量
+    private int currentHP = 22;            // 当前血量
+    private const int MAX_HP = 22;         // 最大血量
     private const int MAX_LAYER = 10;      // 总层数
     private bool isGameOver = false;       // 是否游戏结束（胜利/失败）
     private bool isLoading = false;        // 【新增】是否正在请求数据（防止连点）
@@ -327,10 +327,10 @@ public class DungeonManager : MonoBehaviour
     // ----- 核心算法：根据层数和选项计算扣血（保留原逻辑，仅数值微调）-----
     private int CalculateHPChange(int optionIndex, int currentLayer)
     {
-        // 基础伤害：层数越高怪物越强（原为 1.2，现改为 1.5 略微提升难度）
-        float baseDamage = currentLayer * 1.5f;
-        // 选项系数：0-冒险，1-谨慎，2-取巧（原系数为 1.2,0.5,0.8，体现不同策略）
-        float[] multipliers = { 1.2f, 0.5f, 0.8f };
+        // 基础伤害：层数越高怪物越强
+        float baseDamage = currentLayer * 1.2f;
+        // 选项系数：0-冒险，1-谨慎，2-取巧
+        float[] multipliers = { 0.3f, 0.12f, 0.2f };
         float rawDamage = baseDamage * multipliers[optionIndex];
         // 向上取整，保底至少 1 点伤害
         int finalDamage = Mathf.CeilToInt(rawDamage);
