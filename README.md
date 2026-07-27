@@ -65,7 +65,9 @@
 ## 📸 游戏截图
 
 *(你可以截一张 Unity 运行时的游戏画面，放进 `Screenshots` 文件夹，然后在这里插入)*
-![游戏界面示例](Screenshots/gameplay.png)
+![游戏界面示例](Screenshots/gameplay1.png)
+![游戏死亡界面示例](Screenshots/gameplay2.png)
+![游戏胜利界面示例](Screenshots/gameplay3.png)
 
 ---
 
