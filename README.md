@@ -41,11 +41,11 @@
 ### 方式一：下载编译好的 EXE（推荐）
 点击下方链接下载压缩包，解压后双击 `DungeonEcho.exe` 即可游玩（无需安装 Unity）。
 
-🔗 **[点击下载 Windows 版本 v1.0](https://pan.seamus.icu/games/DungeonEcho_v1.0.zip)** *(注：若无法访问，请检查网络环境)*
+🔗 **[点击下载 Windows 版本 v1.0]([https://pan.seamus.icu/games/DungeonEcho_v1.0.zip](https://github.com/Mr-Xylzhk/Project_Dungeon_Echo/releases/tag/v1.0.0))** *(注：若无法访问，请检查网络环境)*
 
 ### 方式二：本地源码运行
 如果你要二次开发：
-1. 克隆仓库：`git clone https://github.com/你的用户名/Project_Dungeon_Echo.git`
+1. 克隆仓库：`git clone https://github.com/Mr-Xylzhk/Project_Dungeon_Echo.git`
 2. 使用 Unity 2022.3 LTS 打开项目。
 3. 确保修改 `DungeonManager.cs` 中的请求 URL 指向你自己的服务器接口。
 
@@ -64,7 +64,6 @@
 
 ## 📸 游戏截图
 
-*(你可以截一张 Unity 运行时的游戏画面，放进 `Screenshots` 文件夹，然后在这里插入)*
 ![游戏界面示例](Screenshots/gameplay1.png)
 ![游戏死亡界面示例](Screenshots/gameplay2.png)
 ![游戏胜利界面示例](Screenshots/gameplay3.png)
