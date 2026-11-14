@@ -41,7 +41,7 @@
 ### 方式一：下载编译好的 EXE（推荐）
 点击下方链接下载压缩包，解压后双击 `DungeonEcho.exe` 即可游玩（无需安装 Unity）。
 
-🔗 **[点击下载 Windows 版本 v1.0]([https://pan.seamus.icu/games/DungeonEcho_v1.0.zip](https://github.com/Mr-Xylzhk/Project_Dungeon_Echo/releases/tag/v1.0.0))** *(注：若无法访问，请检查网络环境)*
+🔗 **[点击下载 Windows 版本 v1.0](https://github.com/Mr-Xylzhk/Project_Dungeon_Echo/releases/tag/v1.0.0)** *(注：若无法访问，请检查网络环境)*
 
 ### 方式二：本地源码运行
 如果你要二次开发：
