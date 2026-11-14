@@ -4,6 +4,10 @@
 [![Python](https://img.shields.io/badge/Python-3.8-blue?logo=python)](https://python.org/)
 [![DeepSeek](https://img.shields.io/badge/LLM-DeepSeek-brightgreen)](https://deepseek.com/)
 
+> ⚠️ 本项目已归档（2026-11），仅作学习记录。网关代码已不维护，客户端需自行接入模型 API。
+
+---
+
 > **一句话描述**：一款由 DeepSeek 大模型驱动叙事、C# 控制数值的 Roguelike 地牢文字冒险游戏。
 
 ---
